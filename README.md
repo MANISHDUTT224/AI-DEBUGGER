@@ -11,7 +11,6 @@
   <a href="#demo">Demo</a> •
   <a href="#installation">Installation</a> •
   <a href="#how-it-works">How It Works</a> •
-  <a href="#deployment">Deployment</a> •
   <a href="#license">License</a>
 </p>
 
