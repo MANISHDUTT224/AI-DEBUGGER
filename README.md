@@ -32,13 +32,6 @@
 - Sample code library for testing
 - Responsive design works on desktop and mobile
 
-## Demo
-
-Try the live demo at [ai-code-debugger.example.com](https://ai-code-debugger.example.com)
-
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=AI+Code+Debugger+Screenshot" alt="Screenshot" width="800"/>
-</p>
 
 ## Installation
 
