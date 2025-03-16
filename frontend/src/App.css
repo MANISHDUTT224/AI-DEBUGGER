@@ -1,0 +1,130 @@
+/* src/App.css */
+.App {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.status-indicators {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.server-status, .socket-status {
+  display: flex;
+  align-items: center;
+}
+
+.connected {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.disconnected {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.checking {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.collaboration-panel {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.collaboration-panel input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 200px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.code-container, .debug-result {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: monospace;
+  resize: vertical;
+  margin-bottom: 10px;
+  min-height: 350px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3a7abd;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.debug-btn {
+  background-color: #4caf50;
+}
+
+.debug-btn:hover {
+  background-color: #388e3c;
+}
+
+.sample-btn {
+  background-color: #9c27b0;
+}
+
+.sample-btn:hover {
+  background-color: #7b1fa2;
+}
+
+.result-container {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 4px;
+  height: 400px;
+  overflow-y: auto;
+  font-family: monospace;
+  white-space: pre-wrap;
+  border: 1px solid #e0e0e0;
+  line-height: 1.5
+}
