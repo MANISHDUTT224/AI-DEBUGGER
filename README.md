@@ -1,8 +1,6 @@
 # AI Code Debugger
 
-<p align="center">
-  <img src="https://via.placeholder.com/150?text=AI+Debug" alt="AI Code Debugger Logo" width="150"/>
-</p>
+
 
 <p align="center">
   An intelligent code debugging tool with real-time collaboration features.
